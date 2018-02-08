@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="es.solvam.jperez.incidencias.Comentar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu comentario"
+        android:textStyle="bold"
+        android:textColor="#EA4C88"/>
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="6"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/etComentario"
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnComentar"
+        android:textSize="20dp"
+        android:text="Comenta"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCancelarComentario"
+        android:textSize="20dp"
+        android:text="Cancelar"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"/>
+
+
+
+</LinearLayout>

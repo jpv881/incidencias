@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Incidencias</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_crear_usuario">CrearUsuario</string>
+    <string name="title_activity_principal">Principal</string>
+    <string name="title_activity_adaptador">Adaptador</string>
+    <string name="title_activity_ver_incidencia">VerIncidencia</string>
+    <string name="title_activity_adaptador_comentarios">AdaptadorComentarios</string>
+    <string name="title_activity_comentar">Comentar</string>
+    <string name="title_activity_dialogo_acerca">DialogoAcerca</string>
+</resources>
